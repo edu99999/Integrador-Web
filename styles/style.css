@@ -1,0 +1,112 @@
+/* VARIABLES */
+:root {
+  --color-principal-fondo: black;
+}
+/* HEADER */
+header {
+  background-color: var(--color-principal-fondo);
+}
+.titulo {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+ 
+}
+.titulo > img{
+   height: 100px;
+}
+
+/* BARRA DE NAVEGACION*/
+/* header{
+  display: block;
+  position: fixed;
+} */
+.barraNavegacion{
+  margin: 0 auto;
+  background-color: var(--color-principal-fondo);
+}
+.barraNavegacion ul{
+  text-align: center; 
+  list-style: none;
+  margin: 0;
+}
+.barraNavegacion ul li{
+  display: inline-block;
+}
+.barraNavegacion ul li a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-weight: 800;
+}
+.barraNavegacion ul li a:hover{
+  background-color: white;
+  border-radius: 15px;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.divHome > button{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  border-radius: 25%;
+  height: 60px;
+  background-color: #36F683;
+  color: black;
+  font-weight: bold;
+  
+}
+.divHome > button:hover{
+  border-color: #36F683;
+  border-width: 3px;
+
+}
+
+.divHome{
+  width: 100%;
+  height: 600px;
+  background-image: url("../multimedia/home/Home.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  /*BOTON*/
+  
+}
+.seccionCategorias > h1{
+  text-align: center;
+  justify-content: center;
+}
+.seccionCategorias > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.seccionEnvioPagoDevolucion{
+  text-align: center;
+}
+.seccionEnvioPagoDevolucion > div > i {
+  color: #36F683;
+  font-size: 70px;
+}
+.seccionEnvioPagoDevolucion > div > p{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer ul{
+  list-style: none;
+}
+.icono{
+  display: inline;
+}
+footer {
+  background-color: var(--color-principal-fondo);
+  color: white;
+}
+
