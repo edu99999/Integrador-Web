@@ -18,26 +18,35 @@
 </head>
 
 <body>
-    <header class="container-fluid border">
+    <header class="container-fluid">
 
         <div class="row">
-            <div class="titulo col-4 border ">
+            <div class="titulo col-4 ">
                 <img class="img-fluid" src="multimedia/logo.jpg" alt="">
             </div>
-            <div class="col-8 border">
-                <nav class="barraNavegacion border">
+            <div class="col-8">
+                <nav class="barraNavegacion">
                     <ul class="">
                         <li class="">
-                            <a class="" href="./index.html">Home</a>
+                            <a class="" href="index.html">Home</a>
                         </li>
                         <li class="">
                             <a class="" href="#">Shop</a>
+                            <ul>
+                                <li><a href="pages/articulosHombre.html">Hombres</a></li>
+                                <li><a href="pages/articulosMujer.html">Mujeres</a></li>
+                                <li><a href="pages/articulosNiños.html">Niños</a></li>
+                            </ul>
                         </li>
                         <li class="">
                             <a class="" href="#">Sobre Nosotros</a>
+                            <ul>
+                                <li><a href="pages/nosotros.html">Nosotros</a></li>
+                                <li><a href="pages/empresa.html">Empresa</a></li>
+                            </ul>
                         </li>
                         <li class="">
-                            <a class="" href="#">Contactanos</a>
+                            <a class="" href="pages/contactos.html">Contactanos</a>
                         </li>
                         <li><a href=""><i class="bi bi-heart-fill"></i></a></li>
                         <li><a href=""><i class="bi bi-cart-fill"></i></a></li>
@@ -49,65 +58,77 @@
 
     </header>
 
-    <main class="container-fluid border border-4 border-primary">
+    <main class="container-fluid">
 
-        <div class="divHome border border-2 border-dark">
+        <div class="divHome">
             <button class="btn rounded-pill" id="boton">Shop now <i class="bi bi-arrow-right"></img></button>
             <!-- <img src="./img/home/Home.jpg" alt="" > -->
         </div>
 
 <!-- CATEGORIAS -->
-        <div class="seccionCategorias row border border-3 border-danger">
+        <div class="seccionCategorias row">
 
             <h1>Nuestros productos</h1>
 
-            <div class="col 6 border border-3 border-info">
-                <div class="card border border-3 border-danger" style="width:400px">
+            <div class="col 6">
+                <div class="card" style="width:400px">
                     <img class="card-img-top img-fluid" src="./multimedia/home/Ofertas.png" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title">OFERTAS</h4>
-                        <a href="./articulos.html" class="btn btn-primary">Ver más</a>
+                        <a href="./articulos.html" class="btn btn-outline-success">Ver más</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col 6 border border-3 border-info">
-                <div class="card border border-3 border-danger" style="width:400px">
+            <div class="col 6">
+                <div class="card" style="width:400px">
                     <img class="card-img-top img-fluid" src="./multimedia/home/Mujeres.png" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title">Mujeres</h4>
-                        <a href="./pages/articulosMujer.html" class="btn btn-primary">Ver más</a>
+                        <a href="./pages/articulosMujer.html" class="btn btn-outline-success">Ver más</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="seccionCategorias row border border-5 border-success">
-            <div class="col 6 border border-3 border-dark">
+        <div class="seccionCategorias row">
+            <div class="col 6">
                 <div class="card" style="width:400px">
                     <img class="card-img-top img-fluid" src="./multimedia/home/Hombres.png" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title">Hombres</h4>
-                        <a href="./pages/articulosHombre.html" class="btn btn-primary">Ver más</a>
+                        <a href="./pages/articulosHombre.html" class="btn btn-outline-success">Ver más</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col 6 border border-3 border-dark">
+            <div class="col 6">
                 <div class="card" style="width:400px">
                     <img class="card-img-top img-fluid" src="./multimedia/home/Niños.png" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title">Niños</h4>
-                        <a href="./pages/articulosNiños.html" class="btn btn-primary">Ver más</a>
+                        <a href="./pages/articulosNiños.html" class="btn btn-outline-success">Ver más</a>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="marcas row">
+            <h1>Nuestras marcas</h1>
+        <div class="col-4">
+            <img class="img-marcas" src="./multimedia/home/logo-adidas.png" alt="">
+        </div>
+        <div class="col-4">
+            <img class="img-marcas" src="./multimedia/home/logo-nike.png" alt="">
+        </div>
+        <div class="col-4">
+            <img class="img-marcas" src="./multimedia/home/logo-topper.png" alt="">
+        </div>
+    </div>
 
 
 <!-- ENVIOS PAGOS DEVOLUCIONES-->
-        <div class="seccionEnvioPagoDevolucion row border border-5 border-warning">
+        <div class="seccionEnvioPagoDevolucion row">
             <!-- div*3.class -->
             <div class="col-4">
                 <i class="bi bi-truck"></i>
@@ -125,7 +146,7 @@
 
     </main>
 
-    <footer class="container-fluid border border-4 border-secondary">
+    <footer class="container-fluid">
         <div class="row">
             <div class="col-3">
                 <ul>
@@ -152,8 +173,12 @@
                     <li>
                         <h4>AYUDA</h4>
                     </li>
+                    <a href="pages/contactos.html">
                     <li>Contactanos</li>
+                    </a>
+                    <a href="pages/reclamos.html">
                     <li>Reclamos</li>
+                    </a>
                 </ul>
             </div>
             <div class="col-3">
