@@ -1,0 +1,62 @@
+h1{
+  margin-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.parrafo{
+  text-align: center;
+}
+.column {
+    margin-top: 10%;
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container {
+    text-align: center;
+    top: 10%;
+    left: 10%;
+    padding: 0 16px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    text-align: center;
+    color: grey;
+  }    
+
+  .parrafo3{
+    text-align: center;
+     margin-top: 2%;
+  }
+  .content{
+    display: block;
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .parrafo2{
+    text-align: center;
+     margin-top: 10%;
+ }
