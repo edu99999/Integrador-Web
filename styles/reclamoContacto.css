@@ -10,7 +10,7 @@ body {
 }
 
 .form {
-  width: 500px;
+  width: 400px;
   max-width: 100%;
   margin: auto;
   margin-top: 50px;
@@ -53,6 +53,10 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
+}
+
+.img-fluid-logo{
+  height: 50px;
 }
 
 /* input:focus ~ label,
@@ -114,4 +118,19 @@ button {
   border-radius: 10px;
   font-size: 16px;
   margin: 10px auto;
+}
+
+
+footer {
+  background-color: var(--color-principal-fondo);
+  color: white;
+}
+
+footer ul{
+  list-style: none;
+  text-decoration: none;
+}
+
+.icono{
+  display: inline;
 }

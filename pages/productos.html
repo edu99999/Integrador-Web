@@ -18,25 +18,36 @@
 
 <body>
 
-    <header class="container-fluid border">
+    <header class="container-fluid">
         <div class="row">
-            <div class="titulo col-4 border ">
-                <img class="img-fluid" src="../multimedia/logo.jpg" alt="">
+            <div class="titulo col-4">
+                <a href="index.html">
+                    <img class="img-fluid-logo" src="multimedia/logo.jpg" alt="">
+                </a>
             </div>
-            <div class="col-8 border">
-                <nav class="barraNavegacion border">
+            <div class="col-8">
+                <nav class="barraNavegacion">
                     <ul class="">
                         <li class="">
                             <a class="" href="../index.html">Home</a>
                         </li>
                         <li class="">
-                            <a class="" id="hombreArticulos" href="./productos.html">Hombre</a>
+                            <a class="" id="hombreArticulos" href="./productos.html">Shop</a>
+                            <ul>
+                                <li><a href="./articulosHombre.html">Hombres</a></li>
+                                <li><a href="./articulosMujer.html">Mujeres</a></li>
+                                <li><a href="./articulosNiños.html">Niños</a></li>
+                            </ul>
                         </li>
                         <li class="">
                             <a class="" href="#">Sobre Nosotros</a>
+                            <ul>
+                                <li><a href="pages/nosotros.html">Nosotros</a></li>
+                                <li><a href="pages/empresa.html">Empresa</a></li>
+                            </ul>
                         </li>
                         <li class="">
-                            <a class="" href="#">Contactanos</a>
+                            <a class="" href="/pages/contactos.html">Contactanos</a>
                         </li>
                         <li><a href=""><i class="bi bi-heart-fill"></i></a></li>
                         <li><a href=""><i class="bi bi-cart-fill"></i></a></li>
@@ -48,7 +59,7 @@
 
     <main>
 
-        <h2>Nuestros Productos </h2>
+        <h2 class="h2-title">Nuestros Productos </h2>
 
         <form action="" class="formSearch">
             <input type="text" id="inputSearch" placeholder="Ingrese articulo">

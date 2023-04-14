@@ -172,3 +172,8 @@ footer {
 	border:10px solid #ffffff;
 	border-bottom:0px
 }
+
+.h2-title {
+  font-weight: bold;
+  text-align: center;
+}

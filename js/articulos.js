@@ -14,8 +14,7 @@ function cargarArticulos(arrayArticulos) {
     div.innerHTML += `    
           <img src=.${elemento.imagen} alt="producto">
           <h3>${elemento.nombre}</h3>
-          <p>${elemento.precio}</p>
-          <a href="#">Ver más</a>
+          <p>$ ${elemento.precio}</p>
           <button class="btn" id=${elemento.id}>Agregar al Carrito</button>                                           
       `;
     fragmento.append(div);

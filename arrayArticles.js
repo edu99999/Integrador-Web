@@ -19,7 +19,6 @@ function cargarArticulos(elemento) {
         <img src=${elemento.imagen} alt="producto">
         <h3>${elemento.nombre}</h3>
         <p>${elemento.precio}</p>
-        <a href="#">Ver más</a>
         <button class="btn" id=${elemento.id}>Agregar al Carrito</button>                                           
     `;
 
