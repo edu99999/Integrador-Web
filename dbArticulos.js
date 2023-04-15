@@ -1,8 +1,8 @@
 const articulosZapatillas = [
   {
     id: 1,
-    nombre: "Zapatillas Puma Comet 2 Alt Beta ADP de Mujer",
-    marca: "Puma",
+    nombre: "Zapatillas Adidas Coreracer De Mujer",
+    marca: "Adidas",
     categoria: "Mujer",
     imagen: "./multimedia/articulos/ZapatillasAdidasCoreracerDeMujer.jpg",
     precio: 1000,
@@ -12,8 +12,8 @@ const articulosZapatillas = [
   },
   {
     id: 2,
-    nombre: "Zapatillas Adidas Coreracer De Mujer",
-    marca: "Adidas",
+    nombre: "Zapatillas Puma Comet 2 Alt Beta ADP de Mujer",
+    marca: "Puma",
     categoria: "Mujer",
     imagen: "./multimedia/articulos/ZapatillasPumaComet2AltBetaADPMujer.jpg",
     precio: 2000,
@@ -23,8 +23,8 @@ const articulosZapatillas = [
   },
   {
     id: 3,
-    nombre: "Zapatillas Puma Flyer Flex De Hombre",
-    marca: "Puma",
+    nombre: "Zapatillas adidas Fluidup De Hombre",
+    marca: "Adidas",
     categoria: "Hombre",
     imagen: "./multimedia/articulos/ZapatillasAdidasFluidupDeHombre.jpg",
     precio: 1000,
@@ -34,8 +34,8 @@ const articulosZapatillas = [
   },
   {
     id: 4,
-    nombre: "Zapatillas adidas Fluidup De Hombre",
-    marca: "Adidas",
+    nombre: "Zapatillas Puma Flyer Flex De Hombre",
+    marca: "Puma",
     categoria: "Hombre",
     imagen: "./multimedia/articulos/ZapatillasPumaFlyerFlexDeHombre.jpg",
     precio: 2000,

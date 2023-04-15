@@ -2,19 +2,23 @@
 :root {
   --color-principal-fondo: black;
 }
+
 /* HEADER */
 header {
   background-color: var(--color-principal-fondo);
 }
+
 .titulo {
   color: white;
   text-align: center;
   font-weight: 500;
- 
+
 }
-.titulo > img{
-   height: 100px;
+
+.titulo>img {
+  height: 100px;
 }
+
 .fcc-btn {
   position: absolute;
   top: 60%;
@@ -39,23 +43,26 @@ header {
   position: fixed;
 } */
 
-.img-fluid-logo{
+.img-fluid-logo {
   height: 50px;
 }
 
-.barraNavegacion{
+.barraNavegacion {
   margin: 0 auto;
   background-color: var(--color-principal-fondo);
 }
-.barraNavegacion ul{
-  text-align: center; 
+
+.barraNavegacion ul {
+  text-align: center;
   list-style: none;
   margin: 0;
 }
-.barraNavegacion ul li{
+
+.barraNavegacion ul li {
   display: inline-block;
 }
-.barraNavegacion ul li a{
+
+.barraNavegacion ul li a {
   display: block;
   text-decoration: none;
   text-align: center;
@@ -63,13 +70,14 @@ header {
   padding: 10px;
   font-weight: 800;
 }
-.barraNavegacion ul li a:hover{
+
+.barraNavegacion ul li a:hover {
   background-color: white;
   color: black;
   text-transform: uppercase;
 }
 
-.barraNavegacion > li {
+.barraNavegacion>li {
   float: left;
 }
 
@@ -79,7 +87,7 @@ header {
   min-width: 140px;
 }
 
-.barraNavegacion li:hover > ul{
+.barraNavegacion li:hover>ul {
   display: inline-block;
   padding: 5px 10px;
   width: 120px;
@@ -110,55 +118,60 @@ header {
   border-color: black;
 }
 
-.divHome{
+.divHome {
   width: 100%;
   height: 600px;
   background-image: url("../multimedia/home/Home.jpg");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   /*BOTON*/
-  
+
 }
-.seccionCategorias > h1{
+
+.seccionCategorias>h1 {
   text-align: center;
   justify-content: center;
   font-weight: bold;
 }
-.seccionCategorias > div{
+
+.seccionCategorias>div {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
-.marcas > h1{
+.marcas>h1 {
   text-align: center;
   justify-content: center;
   font-weight: bold;
 }
 
-.seccionEnvioPagoDevolucion{
+.seccionEnvioPagoDevolucion {
   text-align: center;
 }
-.seccionEnvioPagoDevolucion > div > i {
+
+.seccionEnvioPagoDevolucion>div>i {
   color: #36F683;
   font-size: 70px;
 }
-.seccionEnvioPagoDevolucion > div > p{
+
+.seccionEnvioPagoDevolucion>div>p {
   font-size: 25px;
   font-weight: bold;
 }
 
 /* FOOTER */
-footer ul{
+footer ul {
   list-style: none;
   text-decoration: none;
 }
 
-.icono{
+.icono {
   display: inline;
 }
+
 footer {
   background-color: var(--color-principal-fondo);
   color: white;
@@ -168,12 +181,13 @@ footer {
 .img-marcas {
   width: 150px;
   height: 150px;
-  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-	border:10px solid #ffffff;
-	border-bottom:0px
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 10px solid #ffffff;
+  border-bottom: 0px
 }
 
 .h2-title {
   font-weight: bold;
   text-align: center;
 }
+
