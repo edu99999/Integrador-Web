@@ -15,12 +15,34 @@ header {
 .titulo > img{
    height: 100px;
 }
+.fcc-btn {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  border-radius: 25%;
+  height: 50px;
+  background-color: #36F683;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fcc-btn:hover {
+  background-color: black;
+  color: white;
+  border-width: 3px;
+}
 
 /* BARRA DE NAVEGACION*/
 /* header{
   display: block;
   position: fixed;
 } */
+
+.img-fluid-logo{
+  height: 50px;
+}
+
 .barraNavegacion{
   margin: 0 auto;
   background-color: var(--color-principal-fondo);
@@ -43,8 +65,7 @@ header {
 }
 .barraNavegacion ul li a:hover{
   background-color: white;
-  border-radius: 15px;
-  color: forestgreen;
+  color: black;
   text-transform: uppercase;
 }
 
@@ -59,10 +80,16 @@ header {
 }
 
 .barraNavegacion li:hover > ul{
-  display: block;
+  display: inline-block;
+  padding: 5px 10px;
+  width: 120px;
+  height: 150px;
+  border: 1px solid black;
+  color: black;
+  background-color: black;
 }
 
-.divHome > button{
+/* .divHome > button{
   position: absolute;
   top: 60%;
   left: 10%;
@@ -77,6 +104,10 @@ header {
   border-color: #36F683;
   border-width: 3px;
 
+} */
+
+.card {
+  border-color: black;
 }
 
 .divHome{
@@ -92,6 +123,7 @@ header {
 .seccionCategorias > h1{
   text-align: center;
   justify-content: center;
+  font-weight: bold;
 }
 .seccionCategorias > div{
   display: flex;
@@ -100,6 +132,11 @@ header {
   text-align: center;
 }
 
+.marcas > h1{
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
 
 .seccionEnvioPagoDevolucion{
   text-align: center;
@@ -116,7 +153,9 @@ header {
 /* FOOTER */
 footer ul{
   list-style: none;
+  text-decoration: none;
 }
+
 .icono{
   display: inline;
 }
@@ -132,4 +171,9 @@ footer {
   box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 	border:10px solid #ffffff;
 	border-bottom:0px
+}
+
+.h2-title {
+  font-weight: bold;
+  text-align: center;
 }
