@@ -172,3 +172,36 @@ footer {
 	border:10px solid #ffffff;
 	border-bottom:0px
 }
+
+.btn-cp {
+  display: inline-block;
+ padding: 0.5rem 1.8rem;
+ font-size: 16px;
+ font-weight: 700;
+ color: black;
+ border: 3px solid #36F683;
+ cursor: pointer;
+ position: relative;
+ background-color: transparent;
+ text-decoration: none;
+ overflow: hidden;
+ z-index: 1;
+ font-family: inherit;
+}
+
+.btn-cp::before{
+  content: "";
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background-color: #36F683;
+ transform: translateX(-100%);
+ transition: all .3s;
+ z-index: -1;
+}
+
+.btn-cp:hover::before{
+  transform: translateX(0);
+}
