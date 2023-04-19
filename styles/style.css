@@ -20,7 +20,7 @@ header {
 }
 
 .fcc-btn {
-  position: absolute;
+  position: relative;
   top: 60%;
   left: 10%;
   border-radius: 25%;

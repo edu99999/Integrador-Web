@@ -1,129 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../styles/estilos.css" />
-    <link rel="stylesheet" href="../styles/style.css" />
-    <link rel="stylesheet" href="../styles/nosotros.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../styles/estilos.css" />
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/nosotros.css" />
+  <link rel="stylesheet" href="../styles/topNav.css">
+  <script src="../js/index.js"></script>
+  <title>Document</title>
+</head>
 
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="container-fluid">
-      <div class="row">
-        <div class="titulo col-4">
-          <img class="img-fluid" src="../multimedia/logo.jpg" alt="" />
-        </div>
-        <div class="col-8">
-          <nav class="barraNavegacion">
-            <ul class="">
-              <li class="">
-                <a class="" href="./index.html">Home</a>
-              </li>
-              <li class="">
-                <a class="" href="#">Shop</a>
-                <ul>
-                  <li><a href="./articulosHombre.html">Hombres</a></li>
-                  <li><a href="./articulosMujer.html">Mujeres</a></li>
-                  <li><a href="./articulosNiños.html">Niños</a></li>
-                </ul>
-              </li>
-              <li class="">
-                <a class="" href="./productos.html">Sobre Nosotros</a>
-                <ul>
-                  <li><a href="./nosotros.html">Nosotros</a></li>
-                  <li><a href="./empresa.html">Empresa</a></li>
-                </ul>
-              </li>
-              <li class="">
-                <a class="" href="./contactos.html">Contactanos</a>
-              </li>
-              <li>
-                <a href=""><i class="bi bi-heart-fill"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="bi bi-cart-fill"></i></a>
-              </li>
+<body>
+  <header class="container-fluid">
+    <div class="topnav">
+      <a href="index.html">
+        <img class="img-fluid-logo" src="../multimedia/logo.jpg" alt="">
+      </a>
+      <div id="myLinks">
+        <ul class="">
+          <li class="">
+            <a class="" href="/index.html">Home</a>
+          </li>
+          <li class="">
+            <a class="" href="productos.html">Shop</a>
+            <ul>
+              <li><a href="articulosHombre.html">Hombres</a></li>
+              <li><a href="articulosMujer.html">Mujeres</a></li>
+              <li><a href="articulosNiños.html">Niños</a></li>
             </ul>
-          </nav>
-        </div>
+          </li>
+          <li class="">
+            <a class="" href="#">Sobre Nosotros</a>
+            <ul>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="empresa.html">Empresa</a></li>
+            </ul>
+          </li>
+          <li class="">
+            <a class="" href="pages/contactos.html">Contactanos</a>
+          </li>
+          <li><a href=""><i class="bi bi-heart-fill"></i></a></li>
+          <li><a href=""><i class="bi bi-cart-fill"></i></a></li>
+        </ul>
       </div>
-    </header>
-    <h1>Sobre la empresa</h1>
-    <p class="parrafo">
-      Sporting One es una empresa de zapatillas que destaca por su diseño
-      moderno y atractivo, así como por la alta calidad de sus productos. Sus
-      zapatillas están diseñadas para ofrecer comodidad y durabilidad, además de
-      contar con tecnologías avanzadas que mejoran el rendimiento deportivo. Los
-      materiales utilizados en la fabricación de las zapatillas son de primera
-      calidad, lo que garantiza su resistencia y durabilidad. Además, su amplia
-      variedad de modelos y colores permite encontrar el estilo que mejor se
-      adapte a cada persona. En resumen, Sporting One es una excelente opción
-      para aquellos que buscan zapatillas de calidad y diseño innovador para
-      practicar deportes o simplemente para un uso cotidiano.
-    </p>
+      <a href="javascript:void(0);" class="icon" onclick="openOrClose()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="desktop row">
+      <div class="titulo col-4">
+        <img class="img-fluid" src="../multimedia/logo.jpg" alt="" />
+      </div>
+      <div class="col-8">
+        <nav class="barraNavegacion">
+          <ul class="">
+            <li class="">
+              <a class="" href="/index.html">Home</a>
+            </li>
+            <li class="">
+              <a class="" href="#">Shop</a>
+              <ul>
+                <li><a href="../pages/articulosHombre.html">Hombres</a></li>
+                <li><a href="../pages/articulosMujer.html">Mujeres</a></li>
+                <li><a href="../pages/articulosNiños.html">Niños</a></li>
+              </ul>
+            </li>
+            <li class="">
+              <a class="" href="../pages/nosotros.html">Sobre Nosotros</a>
+              <ul>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/empresa.html">Empresa</a></li>
+              </ul>
+            </li>
+            <li class="">
+              <a class="" href="../pages/contactos.html">Contactanos</a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-heart-fill"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-cart-fill"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <h1>Sobre la empresa</h1>
+  <p class="parrafo">
+    Sport Run es una empresa de zapatillas que destaca por su diseño
+    moderno y atractivo, así como por la alta calidad de sus productos. Sus
+    zapatillas están diseñadas para ofrecer comodidad y durabilidad, además de
+    contar con tecnologías avanzadas que mejoran el rendimiento deportivo. Los
+    materiales utilizados en la fabricación de las zapatillas son de primera
+    calidad, lo que garantiza su resistencia y durabilidad. Además, su amplia
+    variedad de modelos y colores permite encontrar el estilo que mejor se
+    adapte a cada persona. En resumen, Sport Run es una excelente opción
+    para aquellos que buscan zapatillas de calidad y diseño innovador para
+    practicar deportes o simplemente para un uso cotidiano.
+  </p>
 
-    <footer class="container-fluid">
-      <div class="row">
-        <div class="col-3">
-          <ul>
-            <li>
-              <h4>NOSOTROS</h4>
-            </li>
-            <li>Acerca de la Empresa</li>
-            <a href="pages/nosotros.html">
-              <li>Acerca de Nosotros</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col-3">
-          <ul>
-            <li>
-              <h4>INFORMACION</h4>
-            </li>
-            <li>Medios de Pago</li>
-            <li>Preguntas Frecuentes</li>
-            <li>Politicas de Privacidad</li>
-            <li>Politicas de Cambio</li>
-          </ul>
-        </div>
-        <div class="col-3">
-          <ul>
-            <li>
-              <h4>AYUDA</h4>
-            </li>
-            <a href="pages/contactos.html">
-              <li>Contactanos</li>
-            </a>
-            <a href="pages/reclamos.html">
-              <li>Reclamos</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col-3">
-          <ul>
-            <li>
-              <h4>SEGUINOS</h4>
-            </li>
-            <li class="icono"><i class="bi bi-facebook"></i></li>
-            <li class="icono"><i class="bi bi-twitter"></i></li>
-            <li class="icono"><i class="bi bi-instagram"></i></li>
-          </ul>
-        </div>
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-3">
+        <ul>
+          <li>
+            <h4>NOSOTROS</h4>
+          </li>
+          <li>Acerca de la Empresa</li>
+          <a href="pages/nosotros.html">
+            <li>Acerca de Nosotros</li>
+          </a>
+        </ul>
       </div>
-    </footer>
-  </body>
+      <div class="col-3">
+        <ul>
+          <li>
+            <h4>INFORMACION</h4>
+          </li>
+          <li>Medios de Pago</li>
+          <li>Preguntas Frecuentes</li>
+          <li>Politicas de Privacidad</li>
+          <li>Politicas de Cambio</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul>
+          <li>
+            <h4>AYUDA</h4>
+          </li>
+          <a href="pages/contactos.html">
+            <li>Contactanos</li>
+          </a>
+          <a href="pages/reclamos.html">
+            <li>Reclamos</li>
+          </a>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul>
+          <li>
+            <h4>SEGUINOS</h4>
+          </li>
+          <li class="icono"><i class="bi bi-facebook"></i></li>
+          <li class="icono"><i class="bi bi-twitter"></i></li>
+          <li class="icono"><i class="bi bi-instagram"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
