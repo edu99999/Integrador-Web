@@ -1,259 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/topNav.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/topNav.css" />
 
     <title>Trabajo Integrador</title>
     <script src="index.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="container-fluid">
-        <div class="topnav">
-            <a href="index.html">
-                <img class="img-fluid-logo" src="multimedia/logo.jpg" alt="">
-            </a>
-            <div id="myLinks">
-                <ul class="">
-                    <li class="">
-                        <a class="" href="index.html">Home</a>
-                    </li>
-                    <li class="">
-                        <a class="" href="/pages/productos.html">Shop</a>
-                        <ul>
-                            <li><a href="pages/articulosHombre.html">Hombres</a></li>
-                            <li><a href="pages/articulosMujer.html">Mujeres</a></li>
-                            <li><a href="pages/articulosNiños.html">Niños</a></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a class="" href="#">Sobre Nosotros</a>
-                        <ul>
-                            <li><a href="pages/nosotros.html">Nosotros</a></li>
-                            <li><a href="pages/empresa.html">Empresa</a></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a class="" href="pages/contactos.html">Contactanos</a>
-                    </li>
-                    <li><a href=""><i class="bi bi-heart-fill"></i></a></li>
-                    <li><a href=""><i class="bi bi-cart-fill"></i></a></li>
+      <div class="topnav">
+        <a href="index.html">
+          <img class="img-fluid-logo" src="multimedia/logo.jpg" alt="" />
+        </a>
+        <div id="myLinks">
+          <ul class="">
+            <li class="">
+              <a class="" href="index.html">Home</a>
+            </li>
+            <li class="">
+              <a class="" href="/pages/productos.html">Shop</a>
+              <ul>
+                <li><a href="pages/articulosHombre.html">Hombres</a></li>
+                <li><a href="pages/articulosMujer.html">Mujeres</a></li>
+                <li><a href="pages/articulosNiños.html">Niños</a></li>
+              </ul>
+            </li>
+            <li class="">
+              <a class="" href="#">Sobre Nosotros</a>
+              <ul>
+                <li><a href="pages/nosotros.html">Nosotros</a></li>
+                <li><a href="pages/empresa.html">Empresa</a></li>
+              </ul>
+            </li>
+            <li class="">
+              <a class="" href="pages/contactos.html">Contactanos</a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-heart-fill"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-cart-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="openOrClose()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="desktop row">
+        <div class="titulo col-4">
+          <a href="index.html">
+            <img class="img-fluid-logo" src="multimedia/logo.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-8">
+          <nav class="barraNavegacion">
+            <ul class="">
+              <li class="">
+                <a class="" href="index.html">Home</a>
+              </li>
+              <li class="">
+                <a class="" href="/pages/productos.html">Shop</a>
+                <ul>
+                  <li><a href="pages/articulosHombre.html">Hombres</a></li>
+                  <li><a href="pages/articulosMujer.html">Mujeres</a></li>
+                  <li><a href="pages/articulosNiños.html">Niños</a></li>
                 </ul>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="openOrClose()">
-                <i class="fa fa-bars"></i>
-            </a>
+              </li>
+              <li class="">
+                <a class="" href="#">Sobre Nosotros</a>
+                <ul>
+                  <li><a href="pages/nosotros.html">Nosotros</a></li>
+                  <li><a href="pages/empresa.html">Empresa</a></li>
+                </ul>
+              </li>
+              <li class="">
+                <a class="" href="pages/contactos.html">Contactanos</a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-heart-fill"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-cart-fill"></i></a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class=" desktop row">
-            <div class="titulo col-4 ">
-                <a href="index.html">
-                    <img class="img-fluid-logo" src="multimedia/logo.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-8">
-                <nav class="barraNavegacion">
-                    <ul class="">
-                        <li class="">
-                            <a class="" href="index.html">Home</a>
-                        </li>
-                        <li class="">
-                            <a class="" href="/pages/productos.html">Shop</a>
-                            <ul>
-                                <li><a href="pages/articulosHombre.html">Hombres</a></li>
-                                <li><a href="pages/articulosMujer.html">Mujeres</a></li>
-                                <li><a href="pages/articulosNiños.html">Niños</a></li>
-                            </ul>
-                        </li>
-                        <li class="">
-                            <a class="" href="#">Sobre Nosotros</a>
-                            <ul>
-                                <li><a href="pages/nosotros.html">Nosotros</a></li>
-                                <li><a href="pages/empresa.html">Empresa</a></li>
-                            </ul>
-                        </li>
-                        <li class="">
-                            <a class="" href="pages/contactos.html">Contactanos</a>
-                        </li>
-                        <li><a href=""><i class="bi bi-heart-fill"></i></a></li>
-                        <li><a href=""><i class="bi bi-cart-fill"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-
+      </div>
     </header>
 
     <main class="container-fluid">
+      <div class="divHome">
+        <a class="fcc-btn btn rounded-pill" href="./pages/productos.html"
+          >Show Now</a
+        >
+      </div>
 
-        <div class="divHome">
-            <a class="fcc-btn btn rounded-pill" href="./pages/productos.html">Show Now</a>
-            <!-- <button class="btn rounded-pill" id="boton">Shop now <i class="bi bi-arrow-right"></img></button> -->
-            <!-- <img src="./img/home/Home.jpg" alt="" > -->
+      <!-- CATEGORIAS -->
+      <div class="seccionCategorias row">
+        <h1>Nuestros productos</h1>
+
+        <div class="col 6">
+          <div class="card" style="width: 400px">
+            <img
+              class="card-img-top img-fluid"
+              src="./multimedia/home/Ofertas.png"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">OFERTAS</h4>
+              <a href="/pages/productos.html" class="btn btn-outline-success"
+                >Ver más</a
+              >
+            </div>
+          </div>
         </div>
 
-        <!-- CATEGORIAS -->
-        <div class="seccionCategorias row">
-
-            <h1>Nuestros productos</h1>
-
-            <div class="col 6">
-                <div class="card" style="width:400px">
-                    <img class="card-img-top img-fluid" src="./multimedia/home/Ofertas.png" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">OFERTAS</h4>
-                        <a href="/pages/productos.html" class="btn btn-outline-success">Ver más</a>
-                    </div>
-                </div>
+        <div class="col 6">
+          <div class="card" style="width: 400px">
+            <img
+              class="card-img-top img-fluid"
+              src="./multimedia/home/Mujeres.png"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Mujeres</h4>
+              <a
+                href="./pages/articulosMujer.html"
+                class="btn btn-outline-success"
+                >Ver más</a
+              >
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div class="col 6">
-                <div class="card" style="width:400px">
-                    <img class="card-img-top img-fluid" src="./multimedia/home/Mujeres.png" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">Mujeres</h4>
-                        <a href="./pages/articulosMujer.html" class="btn btn-outline-success">Ver más</a>
-                    </div>
-                </div>
+      <div class="seccionCategorias row">
+        <div class="col 6">
+          <div class="card" style="width: 400px">
+            <img
+              class="card-img-top img-fluid"
+              src="./multimedia/home/Hombres.png"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Hombres</h4>
+              <a
+                href="./pages/articulosHombre.html"
+                class="btn btn-outline-success"
+                >Ver más</a
+              >
             </div>
+          </div>
         </div>
 
-        <div class="seccionCategorias row">
-            <div class="col 6">
-                <div class="card" style="width:400px">
-                    <img class="card-img-top img-fluid" src="./multimedia/home/Hombres.png" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">Hombres</h4>
-                        <a href="./pages/articulosHombre.html" class="btn btn-outline-success">Ver más</a>
-                    </div>
-                </div>
+        <div class="col 6">
+          <div class="card" style="width: 400px">
+            <img
+              class="card-img-top img-fluid"
+              src="./multimedia/home/Niños.png"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Niños</h4>
+              <a
+                href="./pages/articulosNiños.html"
+                class="btn btn-outline-success"
+                >Ver más</a
+              >
             </div>
-
-            <div class="col 6">
-                <div class="card" style="width:400px">
-                    <img class="card-img-top img-fluid" src="./multimedia/home/Niños.png" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">Niños</h4>
-                        <a href="./pages/articulosNiños.html" class="btn btn-outline-success">Ver más</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="marcas row">
-            <h1>Nuestras marcas</h1>
-            <div class="col">
-                <img class="img-marcas" src="./multimedia/home/logo-adidas.png" alt="">
-            </div>
-            <div class="col">
-                <img class="img-marcas" src="./multimedia/home/logo-nike.png" alt="">
-            </div>
-            <div class="col">
-                <img class="img-marcas" src="./multimedia/home/logo-topper.png" alt="">
-            </div>
-            <div class="col">
-                <img class="img-marcas" src="./multimedia/home/logo-everlast.jpg" alt="">
-            </div>
-            <div class="col">
-                <img class="img-marcas" src="./multimedia/home/logo-salomon.jpg" alt="">
-            </div>
-            <div class="col">
-                <img class="img-marcas" src="./multimedia/home/logo-puma.webp" alt="">
-            </div>
-            <div class="col">
-                <img class="img-marcas" src="./multimedia/home/logo-under.png" alt="">
-            </div>
-
+      <div class="marcas row">
+        <h1>Nuestras marcas</h1>
+        <div class="col">
+          <img
+            class="img-marcas"
+            src="./multimedia/home/logo-adidas.png"
+            alt=""
+          />
         </div>
-
-
-        <!-- ENVIOS PAGOS DEVOLUCIONES-->
-        <div class="seccionEnvioPagoDevolucion row">
-            <!-- div*3.class -->
-            <div class="col-4">
-                <i class="bi bi-truck"></i>
-                <p>Envíos a todos el país</p>
-            </div>
-            <div class="col-4">
-                <i class="bi bi-credit-card"></i>
-                <p>Métodos de Pago</p>
-            </div>
-            <div class="col-4">
-                <i class="bi bi-repeat"></i>
-                <p>Cambios y devoluciones</p>
-            </div>
+        <div class="col">
+          <img
+            class="img-marcas"
+            src="./multimedia/home/logo-nike.png"
+            alt=""
+          />
         </div>
+        <div class="col">
+          <img
+            class="img-marcas"
+            src="./multimedia/home/logo-topper.png"
+            alt=""
+          />
+        </div>
+        <div class="col">
+          <img
+            class="img-marcas"
+            src="./multimedia/home/logo-everlast.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col">
+          <img
+            class="img-marcas"
+            src="./multimedia/home/logo-salomon.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col">
+          <img
+            class="img-marcas"
+            src="./multimedia/home/logo-puma.webp"
+            alt=""
+          />
+        </div>
+        <div class="col">
+          <img
+            class="img-marcas"
+            src="./multimedia/home/logo-under.png"
+            alt=""
+          />
+        </div>
+      </div>
 
+      <!-- ENVIOS PAGOS DEVOLUCIONES-->
+      <div class="seccionEnvioPagoDevolucion row">
+        <div class="col-4">
+          <i class="bi bi-truck"></i>
+          <p>Envíos a todos el país</p>
+        </div>
+        <div class="col-4">
+          <i class="bi bi-credit-card"></i>
+          <p>Métodos de Pago</p>
+        </div>
+        <div class="col-4">
+          <i class="bi bi-repeat"></i>
+          <p>Cambios y devoluciones</p>
+        </div>
+      </div>
     </main>
 
     <footer class="container-fluid">
-        <div class="row">
-            <div class="col-3">
-                <ul>
-                    <li>
-                        <h4>NOSOTROS</h4>
-                    </li>
-                    <li>Acerca de la Empresa</li>
-                    <a href="pages/nosotros.html">
-                        <li>Acerca de Nosotros</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="col-3">
-                <ul>
-                    <li>
-                        <h4>INFORMACION</h4>
-                    </li>
-                    <li>Medios de Pago</li>
-                    <li>Preguntas Frecuentes</li>
-                    <li>Politicas de Privacidad</li>
-                    <li>Politicas de Cambio</li>
-                </ul>
-            </div>
-            <div class="col-3">
-                <ul>
-                    <li>
-                        <h4>AYUDA</h4>
-                    </li>
-                    <a href="pages/contactos.html">
-                        <li>Contactanos</li>
-                    </a>
-                    <a href="pages/reclamos.html">
-                        <li>Reclamos</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="col-3">
-                <ul>
-                    <li>
-                        <h4>SEGUINOS</h4>
-                    </li>
-                    <li class="icono"><i class="bi bi-facebook"></i></li>
-                    <li class="icono"><i class="bi bi-twitter"></i></li>
-                    <li class="icono"><i class="bi bi-instagram"></i></li>
-                </ul>
-            </div>
+      <div class="row">
+        <div class="col-3">
+          <ul>
+            <li>
+              <h4>NOSOTROS</h4>
+            </li>
+            <li>Acerca de la Empresa</li>
+            <a href="pages/nosotros.html">
+              <li>Acerca de Nosotros</li>
+            </a>
+          </ul>
         </div>
-
+        <div class="col-3">
+          <ul>
+            <li>
+              <h4>INFORMACION</h4>
+            </li>
+            <li>Medios de Pago</li>
+            <li>Preguntas Frecuentes</li>
+            <li>Politicas de Privacidad</li>
+            <li>Politicas de Cambio</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <ul>
+            <li>
+              <h4>AYUDA</h4>
+            </li>
+            <a href="pages/contactos.html">
+              <li>Contactanos</li>
+            </a>
+            <a href="pages/reclamos.html">
+              <li>Reclamos</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-3">
+          <ul>
+            <li>
+              <h4>SEGUINOS</h4>
+            </li>
+            <li class="icono"><i class="bi bi-facebook"></i></li>
+            <li class="icono"><i class="bi bi-twitter"></i></li>
+            <li class="icono"><i class="bi bi-instagram"></i></li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

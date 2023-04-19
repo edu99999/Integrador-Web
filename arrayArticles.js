@@ -37,7 +37,6 @@ function agregarCarrito(boton){
 
     let id = evento.target.id;
     let articuloBuscado = articulosZapatillas.find( (elemento) => {return elemento.id == id});
-    // let articuloBuscado = articulosZapatillas.find( (elemento) => elemento.id == id);
     console.log(articuloBuscado);
     articulosCarrito.push(articuloBuscado);
     alert('Articulo agregado en el Carrito');
@@ -54,38 +53,3 @@ for (let index = 0; index < articulosZapatillas.length; index++) {
   }
   
 }
-
-/* FUNCIONES QUE SE INVOCAN */
-/**
- * Funcion que permite cargar todos los articulos
- */
-//cargarArticulos(articulosZapatillas);
-
-/**
- * Funcion para agregar al Carrito
- */
-
-
-
-/*
-for (let index = 0; index < articulosZapatillas.length; index++) {
-  
-  console.log(articulosZapatillas[index].nombre);
-  
-}*/
-/*
-articulosZapatillas.forEach(function (elemento) {
-  console.log(elemento.imagen);
-
-  containerArticulos.innerHTML += `
-      <div class="producto">
-				<img src= ${elemento.imagen} alt="producto">
-				<h3>${elemento.nombre}</h3>
-				<p>${elemento.nombre}</p>
-				<p>${elemento.precio}</p>
-				<a href="#">Ver más</a>
-        <button class="btn">Añadir al carrito</button>
-			</div>
-  `;
-});
-*/

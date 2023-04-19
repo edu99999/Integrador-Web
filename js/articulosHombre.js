@@ -32,7 +32,7 @@ function agregarCarrito(boton) {
     let articuloBuscado = articulosZapatillas.find((elemento) => {
       return elemento.id == id;
     });
-    // let articuloBuscado = articulosZapatillas.find( (elemento) => elemento.id == id);
+
     console.log(articuloBuscado);
     articulosCarrito.push(articuloBuscado);
     alert("Articulo agregado en el Carrito");
@@ -47,11 +47,3 @@ for (let index = 0; index < articulosZapatillas.length; index++) {
       continue;
     }
   }
-
-/* for (let index = 0; index < articulosZapatillas.length; index++) {
-  if (articulosZapatillas[index].categoria == "Hombre") {
-    cargarArticulos(articulosZapatillas[index]);
-  } else {
-    continue;
-  }
-} */

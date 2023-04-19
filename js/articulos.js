@@ -33,7 +33,7 @@ function agregarCarrito(boton) {
     let articuloBuscado = articulosZapatillas.find((elemento) => {
       return elemento.id == id;
     });
-    // let articuloBuscado = articulosZapatillas.find( (elemento) => elemento.id == id);
+
     console.log(articuloBuscado);
     articulosCarrito.push(articuloBuscado);
     alert("Articulo agregado en el Carrito");
